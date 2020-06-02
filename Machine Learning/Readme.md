@@ -5,14 +5,14 @@
 遇到機器學習首先了解，我的資料是分類還是回歸，
 
 分類：
-a.	文字型資料：單純貝式(Navie-Bayes)
-b.	非文字資料：隨機森林(Random Forest classifier)
+  a.	文字型資料：單純貝式(Navie-Bayes)
+  b.	非文字資料：隨機森林(Random Forest classifier)
 
 回歸：
-c.	隨機森林(Random Forest regression)：基本要會
-d.	Liner regression-Lasso：針對太多欄位處理，加強版 LassoCV
-e.	Liner regression-Ridge：針對依賴某個欄位而處理，加強版 RidgeCV
-f.	Liner regression-ElasticNet：綜合Lasso和Ridge兩種方式，針對欄位太多以及太依賴某個欄位而處理，加強版ElasticNetCV
+  c.	隨機森林(Random Forest regression)：基本要會
+  d.	Liner regression-Lasso：針對太多欄位處理，加強版 LassoCV
+  e.	Liner regression-Ridge：針對依賴某個欄位而處理，加強版 RidgeCV
+  f.	Liner regression-ElasticNet：綜合Lasso和Ridge兩種方式，針對欄位太多以及太依賴某個欄位而處理，加強版ElasticNetCV
 
 分群：
-g.	K means：分群
+  g.	K means：分群

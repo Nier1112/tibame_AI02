@@ -14,4 +14,4 @@
 4.	Liner regression-ElasticNet：綜合Lasso和Ridge兩種方式，針對欄位太多以及太依賴某個欄位而處理，加強版ElasticNetCV
 
 分群：
-1.	K means：分群
++ K means：分群

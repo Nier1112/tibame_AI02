@@ -1,0 +1,49 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "rich_menu_index",
+  "chatBarText": "你內心想著....",
+  "areas": [
+    {
+      "bounds": {
+        "x": 366,
+        "y": 1260,
+        "width": 240,
+        "height": 269
+      },
+      "action": {
+        "type": "message",
+        "text": "前幾天酒吧有個女生, 酒量很好, 3分鐘喝下10杯列酒很不容易阿 "
+      }
+    },
+    {
+      "bounds": {
+        "x": 1156,
+        "y": 45,
+        "width": 201,
+        "height": 338
+      },
+      "action": {
+        "type": "postback",
+        "text": "你往街道前方走去~",
+        "data": "menu=rich_menu_1"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1569,
+        "y": 1423,
+        "width": 931,
+        "height": 231
+      },
+      "action": {
+        "type": "postback",
+        "text": "繼續查案吧...先去找Nier不曉得他在不在家",
+        "data": "menu=rich_menu_2"
+      }
+    }
+  ]
+}

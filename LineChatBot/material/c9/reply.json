@@ -1,0 +1,29 @@
+[
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://www.ikea.com.tw/dairyfarm/tw/images/074/0607424_PE682974_S4.jpg",
+        "title": "吊燈",
+        "text": "IKEA PS 2014",
+        "actions": [
+          {
+            "type": "message",
+            "label": "吊燈說明",
+            "text": "燈光會在天花板和牆面映照出裝飾圖案, 拉動拉繩，即可將燈光調整成一般光線和柔和光線"
+          },
+          {
+            "type": "uri",
+            "label": "哪裡可以買",
+            "uri": "https://www.ikea.com.tw/zh/products/bathroom-lighting/pendant-lamps/ikea-ps-2014-art-80311499"
+          }
+        ]
+      }
+    ]
+  }
+}
+]

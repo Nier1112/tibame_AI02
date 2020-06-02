@@ -1,0 +1,98 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "rich_menu_4",
+  "chatBarText": "這邊一定有線索...",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1898,
+        "y": 1381,
+        "width": 602,
+        "height": 305
+      },
+      "action": {
+        "type": "postback",
+        "text": "走去九龍城寨",
+        "data": "menu=rich_menu_3"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1847,
+        "y": 114,
+        "width": 280,
+        "height": 233
+      },
+      "action": {
+        "type": "uri",
+        "uri": "http://sosense.tw/mr-bean/"
+      }
+    },
+    {
+      "bounds": {
+        "x": 131,
+        "y": 703,
+        "width": 229,
+        "height": 255
+      },
+      "action": {
+        "type": "postback",
+        "text": "歡迎~今天想喝甚麼呢?",
+        "data": "folder=c5"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1504,
+        "y": 720,
+        "width": 191,
+        "height": 233
+      },
+      "action": {
+        "type": "postback",
+        "text": "酒褓：我幫你準備了一杯特調, 喝看看吧, 這次我請客",
+        "data": "folder=c6"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1398,
+        "y": 1059,
+        "width": 221,
+        "height": 225
+      },
+      "action": {
+        "type": "message",
+        "text": "前天我看到Nier來, 他還是這麼可愛, 但是那天他匆忙的喝完幾杯就走了好像在趕甚麼..."
+      }
+    },
+    {
+      "bounds": {
+        "x": 928,
+        "y": 1034,
+        "width": 246,
+        "height": 318
+      },
+      "action": {
+        "type": "message",
+        "text": "張小敬, 你怎麼在這裡....我們去寬廣的地方走走吧"
+      }
+    },
+    {
+      "bounds": {
+        "x": 941,
+        "y": 716,
+        "width": 216,
+        "height": 250
+      },
+      "action": {
+        "type": "message",
+        "text": "這間店在這邊已經是第三代"
+      }
+    }
+  ]
+}

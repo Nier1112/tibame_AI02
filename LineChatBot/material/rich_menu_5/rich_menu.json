@@ -1,0 +1,63 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "rich_menu_5",
+  "chatBarText": "問問Nie有關兇手的事情..",
+  "areas": [
+    {
+      "bounds": {
+        "x": 390,
+        "y": 169,
+        "width": 246,
+        "height": 276
+      },
+      "action": {
+        "type": "postback",
+        "text": "",
+        "data": "folder=c7"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2174,
+        "y": 1326,
+        "width": 279,
+        "height": 339
+      },
+      "action": {
+        "type": "postback",
+        "text": "回去九龍城寨",
+        "data": "menu=rich_menu_3"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1369,
+        "y": 72,
+        "width": 258,
+        "height": 246
+      },
+      "action": {
+        "type": "postback",
+        "text": "台北101在哪裡?",
+        "data": "floder=c8"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1123,
+        "y": 767,
+        "width": 258,
+        "height": 297
+      },
+      "action": {
+        "type": "postback",
+        "text": "一路上聽到的消息讓我大概知道了...其實兇手就是你吧...你把毒藏在冰塊裏面, 冰塊融化後讓副手領中毒對吧..",
+        "data": "folder=c10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[
+ {
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "uri",
+        "label": "觀看101煙火",
+        "uri": "https://i.imgur.com/uIbF52z.mp4"
+      }
+    ],
+    "thumbnailImageUrl": "https://cw1.tw/CW/images/article/201708/article-5993ede888313.jpg",
+    "title": "台北101",
+    "text": "台北市指標性建築, 每年跨年煙火秀讓許多人特地慕名而來"
+  }
+}
+]

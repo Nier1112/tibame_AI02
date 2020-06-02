@@ -1,0 +1,25 @@
+[
+  {
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "message",
+        "label": "馬上喝掉",
+        "text": "你感覺到一股涼意非常舒服"
+      },
+      {
+        "type": "postback",
+        "label": "放一陣子再喝",
+        "text": "這....酒...有....毒....",
+        "data": "folder=c1"
+      }
+    ],
+    "thumbnailImageUrl": "https://i4.achangpro.com/img.sosense.tw/uploads/20181012160505_41.jpg",
+    "title": "特調",
+    "text": "生命之水, 一般不加冰塊就可以喝"
+  }
+}
+]

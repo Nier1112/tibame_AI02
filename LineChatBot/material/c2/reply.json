@@ -1,0 +1,31 @@
+[
+  {
+  "type": "image",
+  "originalContentUrl": "https://i.imgur.com/3ZRU5Wf.jpg",
+  "previewImageUrl": "https://i.imgur.com/3ZRU5Wf.jpg",
+  "animated": false
+  },
+  {
+  "type": "template",
+  "altText": "this is a confirm template",
+  "template": {
+    "type": "confirm",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "還是接吧",
+        "text": "想想還是接吧",
+        "data": "menu=rich_menu_index"
+      },
+      {
+        "type": "postback",
+        "label": "不要",
+        "text": "老子就不想",
+        "data": "folder=c1"
+      }
+    ],
+    "text": "仔細想想喔~您確定不要嗎?"
+  }
+}
+  
+]

@@ -1,0 +1,48 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": false,
+  "name": "rich_menu_1",
+  "chatBarText": "看看這邊有沒有線索...",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1568,
+        "y": 1462,
+        "width": 932,
+        "height": 224
+      },
+      "action": {
+        "type": "postback",
+        "text": "繼續找線索...",
+        "data": "menu=rich_menu_index"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1073,
+        "y": 22,
+        "width": 319,
+        "height": 449
+      },
+      "action": {
+        "type": "uri",
+        "uri": "http://www.peitiangung.org.tw/history.html"
+      }
+    },
+    {
+      "bounds": {
+        "x": 343,
+        "y": 1304,
+        "width": 251,
+        "height": 331
+      },
+      "action": {
+        "type": "message",
+        "text": "廟公：我最近走過酒吧常看到Nier出現, 真是難得..."
+      }
+    }
+  ]
+}

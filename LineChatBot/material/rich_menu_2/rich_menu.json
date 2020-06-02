@@ -1,0 +1,75 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "rich_menu_2",
+  "chatBarText": "Nier房間,明亮舒服的地方",
+  "areas": [
+    {
+      "bounds": {
+        "x": 792,
+        "y": 987,
+        "width": 161,
+        "height": 166
+      },
+      "action": {
+        "type": "postback",
+        "text": "",
+        "data": "folder=c3"
+      }
+    },
+    {
+      "bounds": {
+        "x": 213,
+        "y": 456,
+        "width": 239,
+        "height": 289
+      },
+      "action": {
+        "type": "postback",
+        "text": "回去街上",
+        "data": "menu=rich_menu_index"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1012,
+        "y": 326,
+        "width": 293,
+        "height": 290
+      },
+      "action": {
+        "type": "postback",
+        "text": "查看吊燈",
+        "data": "folder=c9"
+      }
+    },
+    {
+      "bounds": {
+        "x": 295,
+        "y": 1374,
+        "width": 259,
+        "height": 199
+      },
+      "action": {
+        "type": "message",
+        "text": "垃圾桶內一份報告說著, 當副手被發現時已經在廁所斷氣了.."
+      }
+    },
+    {
+      "bounds": {
+        "x": 1580,
+        "y": 1463,
+        "width": 920,
+        "height": 221
+      },
+      "action": {
+        "type": "postback",
+        "text": "走去九龍城寨",
+        "data": "menu=rich_menu_3"
+      }
+    }
+  ]
+}

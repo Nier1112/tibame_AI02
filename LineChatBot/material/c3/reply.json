@@ -1,0 +1,63 @@
+[
+ {
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://i.imgur.com/KJzjHVO.jpg",
+        "title": "Nier",
+        "text": "張小敬在公會的長年夥伴, 有如妹妹一般的存在",
+        "actions": [
+          {
+            "type": "message",
+            "label": "DATA 2020",
+            "text": "和張小敬一同效忠組織的nier, 這幾年開始有新想法..."
+          },
+          {
+            "type": "message",
+            "label": "DATA 0418",
+            "text": "喜歡喝東西時慢慢品嚐, 經常一杯酒可以喝兩個小時"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://i.imgur.com/ne4bnt7.jpg",
+        "title": "張小敬",
+        "text": "公會幹部, 平常辦事可靠 ,但先前弄丟了一批貨而被公會懲罰",
+        "actions": [
+          {
+            "type": "message",
+            "label": "DATA 1224",
+            "text": "個性認真, 辦事靠譜, 鮮少出錯, 值得信賴"
+          },
+          {
+            "type": "message",
+            "label": "DATA 1224",
+            "text": "自從被副手領重用之後, 這幾年幫公會拓展許多生意"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://i.imgur.com/eImoJiV.jpg",
+        "title": "Nier Yang",
+        "text": "作者本人",
+        "actions": [
+          {
+            "type": "message",
+            "label": "DATA 1112",
+            "text": "nier 這個名字在 automata 遊戲問世之前五年就開始使用了"
+          },
+          {
+            "type": "uri",
+            "label": "FB 3076",
+            "uri": "https://www.facebook.com/nier.yang/"
+          }
+        ]
+      }
+    ]
+  }
+}
+]

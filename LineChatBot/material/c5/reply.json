@@ -1,0 +1,60 @@
+[
+  {
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://i4.achangpro.com/img.sosense.tw/uploads/20181012160500_87.jpg",
+        "title": "血觀音",
+        "text": "★★★★",
+        "actions": [
+          {
+            "type": "message",
+            "label": "血觀音說明",
+            "text": "4顆星評價!主調是蘭姆酒搭配鐵觀音茶，以黑醋栗和花蜜醞釀出神秘的氣息，頗有深度，與電影血觀音一層層抽絲剝繭才能仔細感受，不是喝一口看一次就能窺得全貌，味道的表現也很有戲劇張力，一喝下先是茶酒香在瀰漫中，酸與甜一點一點在口中跳出，但你以為的甜不是甜，酸又不是真正的酸，耐人尋味。"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://i4.achangpro.com/img.sosense.tw/uploads/20181012160505_41.jpg",
+        "title": "Clover Club",
+        "text": " ★★★★",
+        "actions": [
+          {
+            "type": "message",
+            "label": "Clover Club說明",
+            "text": "4顆星評價!三葉草俱樂部, 在本劇情裡面是屬於蘇記特調, 有勇氣就在本劇裡面喝下去, 回歸正題:琴酒調製, 蛋白霜柔化調酒的味道，喝起來香滑順口，酸甜怡人"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://i4.achangpro.com/img.sosense.tw/uploads/20181012160408_90.jpg",
+        "title": "雙魚座",
+        "text": "★★★",
+        "actions": [
+          {
+            "type": "message",
+            "label": "雙魚座說明",
+            "text": "3顆星評價!由梅子、蜜桃和蔓越莓三種迥然不同的味道組合，喝起來味道上有點分離...想知道甚麼式分離的味道, 來喝看看就知道"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://i4.achangpro.com/img.sosense.tw/uploads/20181012160448_52.jpg",
+        "title": "處女座",
+        "text": "★★★☆",
+        "actions": [
+          {
+            "type": "message",
+            "label": "處女座說明",
+            "text": "3.5顆星評價!以琴酒為底，搭配同調性的白酒、葡萄甜酒、蘋果甜酒，有點 White Sangria 的感覺"
+          }
+        ]
+      }
+    ]
+  }
+}
+]

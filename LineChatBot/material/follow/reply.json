@@ -1,0 +1,34 @@
+[
+  {
+  "type": "image",
+  "originalContentUrl": "https://i.imgur.com/ZJdFuHS.jpg",
+  "previewImageUrl": "https://i.imgur.com/ZJdFuHS.jpg",
+  "animated": false
+  },
+  {
+  "type": "text",
+  "text": "張小靖，你在我公會犯下大錯，原本應該處死。念在你平日功勞不淺，給你一個將功贖罪的機會。\n三天前，我們的副首領被毒死，當年他提拔你讓你有今天的成就, 這一次該你去找出兇手了, 事成了就免你死罪。否則後果你知道的..."
+  },
+  {
+  "type": "template",
+  "altText": "this is a confirm template",
+  "template": {
+    "type": "confirm",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "好",
+        "text": "好，為了活下去，去找兇手吧",
+        "data": "menu=rich_menu_index"
+      },
+      {
+        "type": "postback",
+        "label": "誰理你",
+        "text": "關我啥事，誰理你阿~",
+        "data": "folder=c2"
+      }
+    ],
+    "text": "你要接下查詢兇手的任務嗎?"
+  }
+}
+]

@@ -1,0 +1,49 @@
+[
+ {
+  "type": "text",
+  "text": "Nier：我覺得公會太不公平, 為了一個丟失的貨物而懲罰你, 沒錯, 是我做的, 既然你知道了, 那現在你想要怎麼辦?"
+ },
+ {
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "title": "隱瞞真相",
+        "text": "Nier畢竟是跟著自己一起的人,不如往上呈報說兇手逃逸",
+        "actions": [
+          {
+            "type": "message",
+            "label": "隱瞞真相",
+            "text": "動作 1"
+          }
+        ]
+      },
+      {
+        "title": "依法處理",
+        "text": "雖然Nier是在公會內跟自己最親近的人, 但組織規定就是規定, 需要遵守",
+        "actions": [
+          {
+            "type": "message",
+            "label": "依法處理",
+            "text": "動作 1"
+          }
+        ]
+      },
+      {
+        "title": "奪下公會",
+        "text": "這事情遲早瞞不住, 不如趁機把兇手指像會長, 幹掉會長奪下公會",
+        "actions": [
+          {
+            "type": "message",
+            "label": "奪下公會",
+            "text": "動作 1"
+          }
+        ]
+      }
+    ]
+  }
+}
+]

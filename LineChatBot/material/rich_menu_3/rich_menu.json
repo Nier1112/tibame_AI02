@@ -1,0 +1,86 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "rich_menu_3",
+  "chatBarText": "九龍城寨永遠有最多消息",
+  "areas": [
+    {
+      "bounds": {
+        "x": 2166,
+        "y": 1399,
+        "width": 286,
+        "height": 287
+      },
+      "action": {
+        "type": "postback",
+        "text": "回去nier房間",
+        "data": "menu=rich_menu_2"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1921,
+        "y": 985,
+        "width": 249,
+        "height": 285
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://html5games.com/Game/Monkey-Bounce/cf951a62-6031-4b49-8870-60cfe8569a9f"
+      }
+    },
+    {
+      "bounds": {
+        "x": 173,
+        "y": 924,
+        "width": 261,
+        "height": 314
+      },
+      "action": {
+        "type": "postback",
+        "text": "蘇記肉食公司裏面其實是酒吧",
+        "data": "menu=rich_menu_4"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1089,
+        "y": 1085,
+        "width": 177,
+        "height": 225
+      },
+      "action": {
+        "type": "message",
+        "text": "大家都知道蘇記表面上是肉舖, 暗地裡是酒吧, 前幾天剛把人抬出去, 但仍然很熱鬧"
+      }
+    },
+    {
+      "bounds": {
+        "x": 567,
+        "y": 1025,
+        "width": 241,
+        "height": 229
+      },
+      "action": {
+        "type": "postback",
+        "text": "在思考甚麼嗎?去寬廣的地方可以幫助你思考喔",
+        "data": "folder=c4"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1515,
+        "y": 957,
+        "width": 221,
+        "height": 277
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://i.imgur.com/Pkj3mo8.mp4"
+      }
+    }
+  ]
+}

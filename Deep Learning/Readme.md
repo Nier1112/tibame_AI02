@@ -14,12 +14,15 @@ keras中文說明： https://keras.io/zh/layers/core/
 先了解是否為訓練結果不理想或是測試結果不理想
 #### 當訓練結果不理想時：
 + 調整激活函數
-+ 調整學習綠(learning rage)
++ 調整學習率 adam(learning_rate=0.000001~0.1)
 #### 訓練結果好，測試結果不理想時：
 + 收集更多資料
-+ 避免資料不均勻
-+ Earlystoping, 當準確率不再提高時就停止訓練
-+ batch_normalization, 正則化, 使 function 更平滑
++ Earlystoping, 當準確率不再提高時就停止訓練, 避免過擬和
++ batch_normalization, 用於避免資料不均勻的正則化,使 function 更平滑
 + dropout, 丟掉一些神經元限制其擬和能力
 + data augmentation, 圖片資料時可以考慮, 讓圖片產生多種角度增加數量
 
+##### VGG16 and VGG19 ->傳統CNN
+##### ResNet, ResNetV2, ResNeXt ->加深的CNN
+##### InceptionV3 ->Inception系列是加寬的CNN
+##### DesneNet -> 減少特徵消失的CNN

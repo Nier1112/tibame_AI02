@@ -3,12 +3,12 @@
  + MLP-Multilayer Perception(神經網路)為大腦，
  + CNN+MLP 則為一個完整的神經網路，當訓練到一定程度後，拿來判斷未知物品用
 ## 遷移學習：可以將訓練好的 CNN 拿來自己的 MLP 使用
-## tensorflow.keras 目前 tensorflow_version 2.X 版本 in colab
-keras中文說明： https://keras.io/zh/layers/core/
+ + tensorflow.keras 目前 tensorflow_version 2.X 版本 in colab
+ + keras中文說明： https://keras.io/zh/layers/core/
 
-#### 當模型在預測的時候會將所預測的分類由機率高排名到機率低, 尤其是 ImageNet 內有1000種分類, 
->  Top1 accuracy: 指排名第一個的類別與實際結果相同
->  Top5 accuracy: 指前面五個預測的結果與實際結果相同
+## 當模型在預測的時候會將所預測的分類由機率高排名到機率低, 尤其是 ImageNet 內有1000種分類, 
++  Top1 accuracy: 指排名第一個的類別與實際結果相同
++  Top5 accuracy: 指前面五個預測的結果與實際結果相同
 
 ## 當神經網路表現不理想時：
 先了解是否為訓練結果不理想或是測試結果不理想

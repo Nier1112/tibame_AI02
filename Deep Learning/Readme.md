@@ -3,6 +3,7 @@
  + MLP-Multilayer Perception(神經網路)為大腦，
  + CNN+MLP 則為一個完整的神經網路，當訓練到一定程度後，拿來判斷未知物品用
 ## 遷移學習：可以將訓練好的 CNN 拿來自己的 MLP 使用
+ + weights="imagenet" 要放上去, 才能抓到 imagenet 訓練結果
  + tensorflow.keras 目前 tensorflow_version 2.X 版本 in colab
  + keras中文說明： https://keras.io/zh/layers/core/
 

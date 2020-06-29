@@ -14,10 +14,15 @@
     + BernoulliNB:對於特徵是 True 或是 Fasle 的二分化資料用, 想像成是簡單版的 MulitnomialNB
     + 通常 GaussianNB 和 BernoulliNB 可以用決策樹或是隨機森林取代 較不常用
   
-2. 非文字資料：隨機森林(Random Forest classifier)
+2. 非文字資料：決策樹(DecisionTreeClasifier) or 隨機森林(Random Forest classifier)
+    + 決策樹的優點
+        + 看資料相對而言較全面
+        + 可以告訴你哪種特徵是重要的
+        + 劃出決策樹後好理解
     + 隨機森林的優點
       + 看資料比較全面
       + 可以告訴你哪一種特徵是重要的，KNN 就不行
+      
 3. KNN：K最近鄰(k-nearest neighbor classification)
     + 目標最近的屬於哪一類就算哪一類一般 k:5~20 附近效果較好，主要看資料量多寡
 

@@ -9,7 +9,7 @@
     + MulitnomialNB:對於特徵是是整數，且是次數的分布優化，對於文字類型資料通常使用 MultinomialNB，四個重點
       + 避免文字類型資料造成的維度災難
       + Navie-Bayes 自己會判斷哪一個資料重要性高，不用人工判斷
-      + alpha=1，是指所有人都+1 避免出現機率=0 的情況 alpha可以是0.1, 指要不是0就可
+      + alpha=1，是指所有人都+1 避免出現機率=0 的情況 alpha可以是0.1, 只要不是0就可
     + GaussianNB:用於高斯分布的連續數字優化，例如 iris 資料型態
     + BernoulliNB:對於特徵是 True 或是 Fasle 的二分化資料用, 想像成是簡單版的 MulitnomialNB
     + 通常 GaussianNB 和 BernoulliNB 可以用決策樹或是隨機森林取代 較不常用

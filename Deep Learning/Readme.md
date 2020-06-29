@@ -23,7 +23,14 @@
 + dropout, 丟掉一些神經元限制其擬和能力
 + data augmentation, 圖片資料時可以考慮, 讓圖片產生多種角度增加數量
 
+
 ##### VGG16 and VGG19 ->傳統CNN
+   + 由2014年時牛津大學計算機視覺組(Visual Geometry Group)和Google DeepMind 公司一起研究出來的VGG Net, 取得ILSVRC 2014比賽分類項目第二名
+   + VGG發展的背景建立於CNN (AlexNet 於2012年獲得影像識別冠軍) 的成功而開始發展，且因為GPU出現以後，加速了CNN的發展速度
+   + VGG最重要的概念是，使用大量的 3 x 3 CNN處理，在此之前都是較大的CNN在處理，當VGG開始使用較小的CNN時，可以讓特徵擷取的訊息量提高
+   +	兩個 3x3 CNN = 一個5x5 CNN ->兩者 output皆為4
+   + 三個 3x3 CNN = 一個7x7 CNN-> 兩者 output 皆為 2
+   + 論文：https://arxiv.org/pdf/1409.1556.pdf
 ##### ResNet, ResNetV2, ResNeXt ->加深的CNN
 ##### InceptionV3 ->Inception系列是加寬的CNN
 ##### DesneNet -> 減少特徵消失的CNN

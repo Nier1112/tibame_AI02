@@ -31,6 +31,22 @@
    +	兩個 3x3 CNN = 一個5x5 CNN ->兩者 output皆為4
    + 三個 3x3 CNN = 一個7x7 CNN-> 兩者 output 皆為 2
    + 論文：https://arxiv.org/pdf/1409.1556.pdf
-##### ResNet, ResNetV2, ResNeXt ->加深的CNN
 ##### InceptionV3 ->Inception系列是加寬的CNN
+  + Inception 又叫做 GoogLeNet 於 2014年時 ILSVRC分類比賽得到第一名，當時 GoogLeNet的創新在於用 inceptrion的概念，也就是層中層的概念來取代原本單純的CNN
+  + Inception 開拓了CNN的寬度，也因此後來有ResNet注重於深度的拓展
+  + Inception 幾個特色
+    + 將單純的CNN跟pooling層改成 inception架構
+    + 最後分類時用 average pooling替代全連接層
+    + 網路加入了兩個輔助分類器，避免梯度消失
+    +論文：https://arxiv.org/pdf/1409.4842.pdf
+##### ResNet, ResNetV2, ResNeXt ->ResNet系列是加深的CNN
+ + 由何凱明於2015年提出的model, 獲得ILSVRC2015分類第一名，同時在ImageNet detection, ImageNet localization, COCO 	detection和 COCO segmentation 等上述任務中皆獲得第一名
+ + ResNet又叫做殘差神經網路，指的是加入了殘差學習(residual learning)的思想，殘差可以持續保留特徵而不會造成梯度消失，解決了深層神經網路中兩個問題：
+   + 梯度彌散：隨著網路層加深造成很難收斂或是無法收斂的情況，解決方法
+     + 網路初始標準化
+     + 資料標準化
+     + 中間層標準化(Batch Normalization)
+     上述方法仍不能解決訓練集準確率下降的問題..
+   + 精度下降：判斷有誤
+ + 論文：https://arxiv.org/pdf/1512.03385.pdf
 ##### DesneNet -> 減少特徵消失的CNN

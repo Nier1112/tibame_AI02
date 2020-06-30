@@ -20,6 +20,10 @@
 + 收集更多資料
 + Earlystoping, 當準確率不再提高時就停止訓練, 避免過擬和
 + batch_normalization, 用於避免資料不均勻的正則化,使 function 更平滑
+  + 加速收斂
+  + 控制過擬和, 可以少用或不用 Dropout 或正則
+  + 降低 MLP 對初始化權重不敏感情形
+  + 允許使用較大學習效率  
 + dropout, 丟掉一些神經元限制其擬和能力
 + data augmentation, 圖片資料時可以考慮, 讓圖片產生多種角度增加數量
 
